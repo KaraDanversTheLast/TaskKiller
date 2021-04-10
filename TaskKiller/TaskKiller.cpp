@@ -43,14 +43,14 @@ int main()
 	system("taskkill /im  /f");
 	system("taskkill /im  /f");
 	system("taskkill /im  /f");
-	system("taskkill /im  /f");
-	system("taskkill /im  /f");
-	system("taskkill /im  /f");
-	system("taskkill /im  /f");
-	system("taskkill /im  /f");
-	system("taskkill /im  /f");
-	system("taskkill /im  /f");
-	system("taskkill /im  /f");
+	system("taskkill /im CoordService.exe /f");
+	system("taskkill /im BuildService.exe /f");
+	system("taskkill /im xgTrayIcon.exe /f");
+	system("taskkill /im ZeroServiceManager.exe /f");
+	system("taskkill /im ImageShaderProcessor.exe /f");
+	system("taskkill /im ScpTrayApp.exe /f");
+	system("taskkill /im TaskbarX.exe /f");
+	system("taskkill /im vtopebot.exe /f");
 	system("taskkill /im GenshinImpact.exe /f");
 	system("taskkill /im javaw.exe /f");
 	system("taskkill /im 7zFM.exe /f");
@@ -117,6 +117,10 @@ int main()
 	system("taskkill /im Zona.exe /f");
 	system("taskkill /im cmd.exe /f");
 
+	// Запускает программы
+	// Может позже...
+	
+
 
 	// system("cls"); // Очистка консоли
 	
@@ -128,7 +132,7 @@ int main()
 	cout << "																					  " << endl;
 	cout << "@~~~~~#~~~~~#~~~~~#~~~~~#~~~~~#~~~~~#~~~~~#~~~~~#~~~~~#~~~~~#~~~~~#~~~~~#~~~~~#~~~~~#@" << endl;
 
-	// system("pause"); // Не закрывает консоль после завершения процесса
+	system("pause"); // Не закрывает консоль после завершения процесса
 
 	return 0;
 }
